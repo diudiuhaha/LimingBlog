@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e172c03d6b052bf5",
+        "id": "3b66672a0742ec55",
         "type": "tabs",
         "children": [
           {
-            "id": "8fb91c24be8c16a2",
+            "id": "9a993075bdd6e60a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01学习笔记/测试.md",
+                "file": "01学习笔记/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "测试"
+              "title": "未命名"
             }
           }
         ]
@@ -170,12 +170,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8fb91c24be8c16a2",
+  "active": "6ed6e52b84e3e362",
   "lastOpenFiles": [
     "01学习笔记/测试.md",
+    "01学习笔记/未命名.md",
     "09附件/模版/默认模版.md",
-    "01学习笔记/测试.md",
-    "01学习笔记/测试.md",
     "05备忘速查",
     "08创业思考/隐藏测试.md",
     "08创业思考/测试.md",
