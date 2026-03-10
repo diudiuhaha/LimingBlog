@@ -163,6 +163,13 @@ clean_css:
   enable: true
   exclude: ['*.min.css'] # 排除已经压缩过的文件
 
+## Vercel Web Analytics
+## Docs: https://vercel.com/docs/analytics
+## To enable: Set enabled to true after deploying to Vercel and enabling analytics in dashboard
+# analytics:
+#   vercel:
+#     enabled: true
+
 auto_category:
   enable: true
   depth: 3  # 设置你希望生成分类的文件夹层级深度
@@ -186,4 +193,3 @@ hide_posts:
 #  type: git
 #  repo: your repo url
 #  branch: master
-

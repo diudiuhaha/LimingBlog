@@ -54,3 +54,10 @@
     <script async defer data-website-id="<%= config.analytics.umami.id %>" src="<%= config.analytics.umami.host %>/umami.js"></script>
   <% } %>
 <% } %>
+
+<% if (config.analytics && config.analytics.vercel && config.analytics.vercel.enabled){ %>
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+<% } %>
