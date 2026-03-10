@@ -15,6 +15,7 @@ url: http://localhost:4000/
 # url: http://localhost:4000/
 root: /
 # permalink: :year/:month/:day/:title/
+permalink: posts/:custom_name/
 #permalink_defaults:
 
 #Custom Setting Start
@@ -44,12 +45,10 @@ sidebar-avatar: img/avatar.jpg      # use absolute URL, seeing it's used in both
 # 友情链接
 friends: [
     {
-        title: "10000H",
-        href: "https://www.10000h.top"
-    },{
-        title: "It helps SEO",
-        href: "#"
-    },{
+        title: "关于本站",
+        href: "/about/"
+    },
+    {
         title: "站点地图",
         href: "/sitemap.xml"
     }
@@ -67,9 +66,9 @@ friends: [
   #  type: disqus
   #  script: 'https://airclouds-blog.disqus.com/embed.js'
 
-# donate:
-#   img: img/donate.jpg
-#   content: 感谢鼓励
+#donate:
+#  img: img/donate.jpg
+#  content: 感谢鼓励
 
 # The following content is not recommended to modify
 # 搜索数据文件路径设置，不建议改动：
@@ -99,7 +98,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:
@@ -150,19 +149,36 @@ sitemap:
 
 # 永久链接设置
 # 必须将 permalink 设置为使用 abbrlink 生成的变量
-permalink: posts/:abbrlink
+#permalink: posts/:abbrlink
 # 或者 permalink: :abbrlink.html (取决于你想要的 URL 结构)
 
 # abbrlink 插件配置
-abbrlink:
-  alg: crc32      # 算法：crc16 或 crc32，推荐 crc32 冲突率更低
-  rep: hex        # 格式：dec (十进制) 或 hex (十六进制)，推荐 hex 更短
-  drafts: false   # 是否处理草稿文章，建议 false
+#abbrlink:
+#  alg: crc32      # 算法：crc16 或 crc32，推荐 crc32 冲突率更低
+#  rep: hex        # 格式：dec (十进制) 或 hex (十六进制)，推荐 hex 更短
+#  drafts: false   # 是否处理草稿文章，建议 false
 
 ## css压缩
 clean_css:
   enable: true
   exclude: ['*.min.css'] # 排除已经压缩过的文件
+
+auto_category:
+  enable: true
+  depth: 3  # 设置你希望生成分类的文件夹层级深度
+
+# 自动生成分类页
+category_generator:
+  per_page: 10 # 每页显示文章数，0为关闭分页
+  order_by: -date # 排序方式
+
+
+# 隐藏文章插件配置
+hide_posts:
+  enable: true
+  filter: hidden      # 这里定义你在 Front-matter 中使用的字段名
+  noindex: true       # 自动添加 noindex 标签，阻止搜索引擎收录
+  public_generators: [] # 确保在所有列表（首页、归档等）中都隐藏
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

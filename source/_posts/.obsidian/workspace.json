@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "adf3a1c3193b5f55",
+    "type": "split",
+    "children": [
+      {
+        "id": "e172c03d6b052bf5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8fb91c24be8c16a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01学习笔记/测试.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "测试"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4d0a11232fa92cad",
+    "type": "split",
+    "children": [
+      {
+        "id": "468ebbbfbd426195",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ed6e52b84e3e362",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "8bf014784a3b619f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "55752681cdd23b6e",
+    "type": "split",
+    "children": [
+      {
+        "id": "87ea559859016492",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "97e17698ed99785a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "默认模版.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "默认模版 的反向链接列表"
+            }
+          },
+          {
+            "id": "c8c1743ceedb50b6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "默认模版.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "默认模版 的大纲"
+            }
+          },
+          {
+            "id": "4d2332c973d55c4f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "2cdf91cc7083b7fb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "默认模版.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "默认模版 的出链列表"
+            }
+          },
+          {
+            "id": "ed67382ad98d264a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:查看关系图谱": false,
+      "templates:插入模板": false,
+      "bases:新建数据库": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "8fb91c24be8c16a2",
+  "lastOpenFiles": [
+    "01学习笔记/测试.md",
+    "09附件/模版/默认模版.md",
+    "01学习笔记/测试.md",
+    "01学习笔记/测试.md",
+    "05备忘速查",
+    "08创业思考/隐藏测试.md",
+    "08创业思考/测试.md",
+    "09附件/模版/模版.md",
+    "09附件/图片",
+    "09附件/模版",
+    "隐藏测试",
+    "08问题解决",
+    "01学习笔记",
+    "08创业思考",
+    "IMG/Pasted image 20260310160857.png"
+  ]
+}
