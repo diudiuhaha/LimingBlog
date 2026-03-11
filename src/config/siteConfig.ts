@@ -10,7 +10,7 @@ export const siteConfig: SiteConfig = {
 	title: "黎明的博客",
 
 	// 站点副标题
-	subtitle: "人类一思考，上帝就发笑。",
+	subtitle: "读书、笔记、复盘和思考",
 
 	// 站点 URL
 	site_url: "https://baidu.com",

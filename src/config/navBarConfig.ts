@@ -38,19 +38,19 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	// });
 	links.push(LinkPreset.Bangumi);
 	links.push(LinkPreset.Gallery);
+	links.push(LinkPreset.About);
 
-
-	// 关于及其子菜单
-	links.push({
-		name: "其他",
-		url: "/content/",
-		icon: "material-symbols:info",
-		children: [
-			LinkPreset.Guestbook,
-			LinkPreset.Friends,// 友链
-			LinkPreset.About,
-		],
-	});
+	// // 关于及其子菜单
+	// links.push({
+	// 	name: "其他",
+	// 	url: "/content/",
+	// 	icon: "material-symbols:info",
+	// 	children: [
+	// 		LinkPreset.Guestbook,
+	// 		LinkPreset.Friends,// 友链
+	// 		LinkPreset.About,
+	// 	],
+	// });
 
 	// 自定义导航栏链接,并且支持多级菜单
 	links.push({
