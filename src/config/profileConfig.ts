@@ -24,7 +24,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "steam",
 			icon: "fa7-brands:steam",
-			url: "https://baidu.com",
+			url: "https://diudiu.cc.cd",
 			showName: false,
 		},
 		{

@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "读书、笔记、复盘和思考",
 
 	// 站点 URL
-	site_url: "https://baidu.com",
+	site_url: "https://diudiu.cc.cd",
 
 	// 站点描述
 	description:

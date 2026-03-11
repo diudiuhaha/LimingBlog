@@ -38,7 +38,14 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	// });
 	links.push(LinkPreset.Bangumi);
 	links.push(LinkPreset.Gallery);
-	links.push(LinkPreset.About);
+	// links.push(LinkPreset.About);
+
+	links.push({
+		name: "关于",
+		url: "posts/about-me/",
+		icon: "material-symbols:person",
+	});
+
 
 	// // 关于及其子菜单
 	// links.push({
@@ -53,21 +60,21 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	// });
 
 	// 自定义导航栏链接,并且支持多级菜单
-	links.push({
-		name: "链接",
-		url: "/links/",
-		icon: "material-symbols:link",
+	// links.push({
+	// 	name: "链接",
+	// 	url: "/links/",
+	// 	icon: "material-symbols:link",
 
-		// 子菜单
-		children: [
-			{
-				name: "GitHub",
-				url: "https://github.com/diudiuhaha",
-				external: true,
-				icon: "fa7-brands:github",
-			}
-		],
-	});
+	// 	// 子菜单
+	// 	children: [
+	// 		{
+	// 			name: "GitHub",
+	// 			url: "https://github.com/diudiuhaha",
+	// 			external: true,
+	// 			icon: "fa7-brands:github",
+	// 		}
+	// 	],
+	// });
 
 	// 仅返回链接，其它导航搜索相关配置在模块顶层常量中独立导出
 	return { links } as NavBarConfig;

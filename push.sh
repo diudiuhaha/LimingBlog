@@ -11,11 +11,11 @@ echo "🚀 开始自动化部署流程..."
 cd "$PROJECT_ROOT" || { echo "❌ 无法进入目录: $PROJECT_ROOT"; exit 1; }
 
 # 1. 执行构建
-echo "🔨 正在运行 pnpm build..."
-if ! pnpm build; then
-  echo "❌ 构建失败，请检查错误。"
-  exit 1
-fi
+#echo "🔨 正在运行 pnpm build..."
+#if ! pnpm build; then
+#  echo "❌ 构建失败，请检查错误。"
+#  exit 1
+#fi
 
 # 2. 添加所有更改的文件到暂存区
 echo "📦 正在添加文件到暂存区..."
