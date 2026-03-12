@@ -1,10 +1,11 @@
 ---
-title:  Docker入门笔记1
-published:  2020-01-27 20:43:00
-tags: 
-- docker
-- 入门笔记
-category:  学习笔记
+title: Docker入门笔记1
+published: 2020-01-27 20:43:00
+tags:
+  - docker
+  - 入门笔记
+category: 学习笔记
+image: api
 ---
 
 

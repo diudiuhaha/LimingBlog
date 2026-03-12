@@ -1,10 +1,11 @@
 ---
-title:  Linux学习笔记之搭建简单的nfs服务
-published:  2020-01-27 20:43:00
-tags: 
-- linux
-- nfs
-category:  学习笔记
+title: Linux学习笔记之搭建简单的nfs服务
+published: 2020-01-27 20:43:00
+tags:
+  - linux
+  - nfs
+category: 学习笔记
+image: api
 ---
 
 # NFS服务（network file system）

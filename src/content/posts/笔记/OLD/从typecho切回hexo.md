@@ -1,10 +1,11 @@
 ---
-title:  从typecho切回hexo
-published:  2020-01-27 20:43:00
-tags: 
-- hexo
-- typecho
-category:  问题处理
+title: 从typecho切回hexo
+published: 2020-01-27 20:43:00
+tags:
+  - hexo
+  - typecho
+category: 问题处理
+image: api
 ---
 
 比起typecho ，使用hexo感觉更像是自讨苦吃

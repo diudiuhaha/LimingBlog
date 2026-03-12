@@ -6,6 +6,7 @@ tags:
   - pip
   - you-get
 category: 问题处理
+image: api
 ---
 
 ## 前言 

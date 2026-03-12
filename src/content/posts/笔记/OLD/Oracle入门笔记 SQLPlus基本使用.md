@@ -1,11 +1,12 @@
 ---
-title:  Oracle入门笔记 SQLPlus基本使用
-published:  2020-11-16 00:24:00
-tags: 
-    - Oracle
-    - Oracle 12c
-    - SQLPlus
-category:  学习笔记
+title: Oracle入门笔记 SQLPlus基本使用
+published: 2020-11-16 00:24:00
+tags:
+  - Oracle
+  - Oracle 12c
+  - SQLPlus
+category: 学习笔记
+image: api
 ---
 
 ## 启动SQLPus

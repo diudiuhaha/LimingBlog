@@ -6,6 +6,7 @@ tags:
   - 阿里云
   - ssh
 category: 问题处理
+image: api
 ---
 
 

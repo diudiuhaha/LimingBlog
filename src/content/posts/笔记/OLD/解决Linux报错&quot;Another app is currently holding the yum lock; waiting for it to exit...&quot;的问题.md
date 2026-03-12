@@ -1,10 +1,11 @@
 ---
-title:  解决Linux报错&quot;Another app is currently holding the yum lock; waiting for it to exit...&quot;的问题
-published:  2019-04-26 12:20:00
-tags: 
-    - linux
-    - yum
-category:  问题处理
+title: 解决Linux报错&quot;Another app is currently holding the yum lock; waiting for it to exit...&quot;的问题
+published: 2019-04-26 12:20:00
+tags:
+  - linux
+  - yum
+category: 问题处理
+image: api
 ---
 
 在执行yum相关命令的时候，出现以下提示：

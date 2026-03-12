@@ -6,6 +6,7 @@ tags:
   - 密码
   - linux
 category: 问题处理
+image: api
 ---
 
 重启

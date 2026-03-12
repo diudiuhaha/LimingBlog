@@ -5,6 +5,7 @@ tags:
   - windows
   - windowsterminal
 category: 折腾记录
+image: api
 ---
 
 

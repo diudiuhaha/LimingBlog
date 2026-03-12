@@ -1,11 +1,12 @@
 ---
-title:  Oracle入门笔记  - 基础概念
-published:  2020-11-08 22:54:00
-tags: 
-    - Oracle
-    - Oracle 12c
-    - SQLPlus
-category:  学习笔记
+title: Oracle入门笔记  - 基础概念
+published: 2020-11-08 22:54:00
+tags:
+  - Oracle
+  - Oracle 12c
+  - SQLPlus
+category: 学习笔记
+image: api
 ---
 
 # 前言
