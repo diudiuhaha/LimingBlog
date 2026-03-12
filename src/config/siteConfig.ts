@@ -23,7 +23,7 @@ export const siteConfig: SiteConfig = {
 	keywords: [
 		"黎明",
 		"diudiudevil",
-		"黎明的博客",
+		"黎明博客",
 		"博客"
 	],
 
@@ -78,7 +78,7 @@ export const siteConfig: SiteConfig = {
 		logo: { type: "icon", value: "material-symbols:home-pin-outline" },
 
 		// 导航栏标题
-		title: "黎明的博客",
+		title: "黎明博客",
 		// 全宽导航栏，导航栏是否占满屏幕宽度，true：占满，false：不占满
 		widthFull: true,
 		// 导航菜单对齐方式，left：左对齐，center：居中
@@ -88,7 +88,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	// 站点开始日期，用于统计运行天数
-	siteStartDate: "2026-03-01",
+	siteStartDate: "2019-01-01",
 
 	// 站点时区（IANA 时区字符串），用于格式化bangumi、rss里的构建日期时间等等..
 	// 示例："Asia/Shanghai", "UTC", 如果为空，则按照构建服务器的时区进行时区转换
@@ -107,7 +107,7 @@ export const siteConfig: SiteConfig = {
 	outdatedThreshold: 30,
 
 	// 是否开启分享海报生成功能
-	sharePoster: false,
+	sharePoster: true,
 
 	// OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
 	generateOgImages: false,
