@@ -12,7 +12,7 @@ export const profileConfig: ProfileConfig = {
 	name: "diudiu (李明)",
 
 	// 个人签名
-	bio: "人生岁月不哀戚.",
+	bio: "读书、笔记、复盘和思考.",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
