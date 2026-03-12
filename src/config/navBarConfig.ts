@@ -38,14 +38,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	// });
 	links.push(LinkPreset.Bangumi);
 	links.push(LinkPreset.Gallery);
-	// links.push(LinkPreset.About);
-
-	links.push({
-		name: "关于",
-		url: "posts/about-me/",
-		icon: "material-symbols:person",
-	});
-
+	links.push(LinkPreset.About);
 
 	// // 关于及其子菜单
 	// links.push({

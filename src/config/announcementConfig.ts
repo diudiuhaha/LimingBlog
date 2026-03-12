@@ -5,7 +5,7 @@ export const announcementConfig: AnnouncementConfig = {
 	title: "公告",
 
 	// 公告内容
-	content: "正在整顿中，博客重生🎉",
+	content: "博客重生🎉，正在建设中",
 
 	// 是否允许用户关闭公告
 	closable: true,
@@ -14,7 +14,7 @@ export const announcementConfig: AnnouncementConfig = {
 		// 启用链接
 		enable: true,
 		// 链接文本
-		text: "👉",
+		text: "👉关于本站",
 		// 链接 URL
 		url: "/about/",
 		// 内部链接

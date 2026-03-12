@@ -24,7 +24,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "steam",
 			icon: "fa7-brands:steam",
-			url: "https://diudiu.cc.cd",
+			url: "https://steampowered.com/",
 			showName: false,
 		},
 		{
@@ -36,7 +36,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Email",
 			icon: "fa7-solid:envelope",
-			url: "mailto:xiaye@msn.com",
+			url: "mailto:mail_diudiu@qq.com",
 			showName: false,
 		},
 		{

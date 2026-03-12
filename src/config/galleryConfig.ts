@@ -19,7 +19,7 @@ export const galleryConfig: GalleryConfig = {
 			description: "白天想，夜里哭，做梦都想去首都",
 			location: "北京·天安门广场",
 			date: "2024-01-01",
-			tags: ["故宫", "北京"],
+			tags: ["北京"],
 		},
 		{
 			id: "manzhanjilu",

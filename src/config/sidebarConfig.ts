@@ -128,7 +128,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件位置
 			position: "sticky",
 			// 是否在文章详情页显示
-			showOnPostPage: false,
+			showOnPostPage: true,
 		},
 		{
 			// 组件类型：侧边栏目录组件（只在文章详情页显示）
@@ -150,7 +150,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件位置
 			position: "sticky",
 			// 是否在文章详情页显示
-			showOnPostPage: true,
+			showOnPostPage: false,
 			// 配置ID：使用第二个广告配置
 			configId: "ad2",
 		},

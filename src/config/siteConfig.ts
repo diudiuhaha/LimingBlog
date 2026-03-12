@@ -7,7 +7,7 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "黎明的博客",
+	title: "黎明博客",
 
 	// 站点副标题
 	subtitle: "读书、笔记、复盘和思考",
@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
 
 	// 站点描述
 	description:
-		"读书、笔记、复盘和思考",
+		"黎明博客，读书、笔记、复盘和思考",
 
 	// 站点关键词
 	keywords: [
@@ -128,7 +128,7 @@ export const siteConfig: SiteConfig = {
 		// 赞助页面开关
 		sponsor: false,
 		// 留言板页面开关，需要配置评论系统
-		guestbook: true,
+		guestbook: false,
 		// 番组计划页面开关，含追番、游戏、书籍和音乐，dev调试时只获取一页数据，build才会获取全部数据
 		bangumi: true,
 		// 相册页面开关
@@ -156,7 +156,7 @@ export const siteConfig: SiteConfig = {
 	// 分页配置
 	pagination: {
 		// 每页显示的文章数量
-		postsPerPage: 10,
+		postsPerPage: 8,
 	},
 
 	// 统计分析
