@@ -38,6 +38,10 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	// });
 	links.push(LinkPreset.Bangumi);
 	links.push(LinkPreset.Gallery);
+
+	links.push(LinkPreset.Guestbook),
+	links.push(LinkPreset.Friends,),
+
 	links.push(LinkPreset.About);
 
 	// // 关于及其子菜单
@@ -47,8 +51,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	// 	icon: "material-symbols:info",
 	// 	children: [
 	// 		LinkPreset.Guestbook,
-	// 		LinkPreset.Friends,// 友链
-	// 		LinkPreset.About,
+	// 		LinkPreset.Friends,
 	// 	],
 	// });
 

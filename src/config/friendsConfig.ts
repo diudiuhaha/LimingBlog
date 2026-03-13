@@ -14,7 +14,7 @@ export const friendsPageConfig: FriendsPageConfig = {
 	showCustomContent: true,
 
 	// 是否开启随机排序配置，如果开启，就会忽略权重，构建时进行一次随机排序
-	randomizeSort: false,
+	randomizeSort: true,
 };
 
 // 友链配置
@@ -24,7 +24,7 @@ export const friendsConfig: FriendLink[] = [
 		imgurl: "https://q1.qlogo.cn/g?b=qq&nk=7618557&s=640",
 		desc: "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
 		siteurl: "https://blog.cuteleaf.cn",
-		tags: ["Blog"],
+		tags: ["博主推荐"],
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	}
