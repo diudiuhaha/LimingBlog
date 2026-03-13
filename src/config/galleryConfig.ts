@@ -13,26 +13,32 @@ export const galleryConfig: GalleryConfig = {
 		// date: 相册日期，格式为 YYYY-MM-DD，用于排序和显示
 		// tags: 相册标签，用于分类和过滤
 		// 每添加一个数组项就相当于添加了一个相册，记得在 public/gallery/ 目录下创建对应的子目录并放入图片
-		{
+				{
+			id: "chengdu202307",
+			name: "成都2023",
+			description: "直到所有的灯都熄灭了也不停留",
+			location: "成都",
+			date: "2023-07-30",
+			tags: ["成都"],
+		},{
 			id: "beijing-2024",
 			name: "北京2024",
 			description: "白天想，夜里哭，做梦都想去首都",
-			location: "北京·天安门广场",
+			location: "北京",
 			date: "2024-01-01",
 			tags: ["北京"],
-		},
-		{
+		},{
 			id: "manzhanjilu",
 			name: "漫展摄影（旧）",
 			description: "好像剩的不多了，其他的都丢了。2026年之前的摄影作品",
 			location: "南京",
 			date: "2023-12-03",
-			tags: ["cosplay", "漫展"],
+			tags: ["漫展"],
 		},
 	],
 
 	// 瀑布流最小列宽(px)，浏览器根据容器宽度自动计算列数，默认 240
 	// 值越小列数越多，值越大列数越少
-	columnWidth: 300,
+	columnWidth: 240,
 };
 

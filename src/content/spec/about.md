@@ -44,5 +44,13 @@ Hello，这里*李明*，也可以叫我 :spoiler[**diudiu**] ，一位愚蠢的
 
 当前使用免费的二级域名 `diudiu.cc.cd`过渡，感谢 [dnshe.com](https://www.dnshe.com/)，等到博客内容充实一些后再考虑正式的域名。
 
+
+### 备用
+- [netlify](https://limingblog.netlify.app/)
+- [vercel](https://limingblog.vercel.app/)
+- [cloudflare](hthttps://limingblog.pages.dev/)
+
+
+
 *感谢你的来访！希望在这里能找到对你有用的内容！*
 
