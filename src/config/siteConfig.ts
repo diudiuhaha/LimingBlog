@@ -70,12 +70,12 @@ export const siteConfig: SiteConfig = {
 		// 2. 本地图片（public目录，不优化）: { type: "image", value: "/assets/images/logo.webp", alt: "Logo" }
 		// 3. 本地图片（src目录，自动优化但会增加构建时间，推荐）: { type: "image", value: "assets/images/logo.webp", alt: "Logo" }
 		// 4. 网络图片: { type: "url", value: "https://example.com/logo.png", alt: "Logo" }
-		// logo: {
-		// 	type: "image",
-		// 	value: "assets/images/favicon.jpg",
-		// 	alt: "🍀",
-		// },
-		logo: { type: "icon", value: "material-symbols:home-pin-outline" },
+		logo: {
+			type: "image",
+			value: "assets/images/favicon.png",
+			alt: "🌅",
+		},
+		// logo: { type: "icon", value: "material-symbols:home-pin-outline" },
 
 		// 导航栏标题
 		title: "黎明博客",
@@ -136,7 +136,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	// 分类导航栏开关，在首页和归档页顶部显示分类快捷导航
-	categoryBar: false,
+	categoryBar: true,
 
 	// 文章列表布局配置
 	postListLayout: {
@@ -179,7 +179,7 @@ export const siteConfig: SiteConfig = {
 		// - "both": 同时输出 AVIF 和 WebP（推荐，浏览器自动选择最佳格式）
 		formats: "both",
 		// 图片压缩质量 (1-100)，值越低体积越小但质量越差，推荐 70-85
-		quality: 80,
+		quality: 70,
 		// 为特定域名的图片添加 referrerpolicy="no-referrer" 属性
 		// 支持通配符 *，例如：["i0.hdslb.com", "*.bilibili.com"]
 		// 可解决指定域名图片加载时的 403 问题（如防盗链图片）
