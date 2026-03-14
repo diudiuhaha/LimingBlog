@@ -6,6 +6,7 @@ tags:
   - windowsterminal
 category: 折腾记录
 image: api
+slug: windows-terminal-beautification-basics
 ---
 
 

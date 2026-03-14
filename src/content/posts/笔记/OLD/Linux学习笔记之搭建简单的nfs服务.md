@@ -6,6 +6,7 @@ tags:
   - nfs
 category: 学习笔记
 image: api
+slug: linux-nfs-server-setup-guide
 ---
 
 # NFS服务（network file system）

@@ -6,6 +6,7 @@ tags:
   - 入门笔记
 category: 学习笔记
 image: api
+slug: docker-getting-started-part-1
 ---
 
 

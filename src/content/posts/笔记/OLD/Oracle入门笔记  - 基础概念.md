@@ -7,6 +7,7 @@ tags:
   - SQLPlus
 category: 学习笔记
 image: api
+slug: oracle-basics-concepts
 ---
 
 # 前言

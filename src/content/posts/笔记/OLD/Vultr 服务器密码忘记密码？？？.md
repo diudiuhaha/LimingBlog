@@ -7,6 +7,7 @@ tags:
   - linux
 category: 问题处理
 image: api
+slug: vultr-server-forgot-password-guide
 ---
 
 重启

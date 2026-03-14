@@ -7,6 +7,7 @@ tags:
   - ssh
 category: 问题处理
 image: api
+slug: aliyun-ssh-permission-denied-publickey-solution
 ---
 
 

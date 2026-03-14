@@ -6,6 +6,7 @@ tags:
   - typecho
 category: 问题处理
 image: api
+slug: Migrating-From-Typecho-To-Hexo
 ---
 
 比起typecho ，使用hexo感觉更像是自讨苦吃

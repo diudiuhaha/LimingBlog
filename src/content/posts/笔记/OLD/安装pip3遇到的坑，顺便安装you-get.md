@@ -7,6 +7,7 @@ tags:
   - you-get
 category: 问题处理
 image: api
+slug: pip3-you-get-installation-guide
 ---
 
 ## 前言 

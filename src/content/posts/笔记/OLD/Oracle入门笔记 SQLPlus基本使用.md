@@ -7,6 +7,7 @@ tags:
   - SQLPlus
 category: 学习笔记
 image: api
+slug: oracle-sqlplus-basics
 ---
 
 ## 启动SQLPus

@@ -6,6 +6,7 @@ tags:
   - yum
 category: 问题处理
 image: api
+slug: how-to-fix-yum-lock-error-another-app-holding-lock
 ---
 
 在执行yum相关命令的时候，出现以下提示：
