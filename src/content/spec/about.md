@@ -50,7 +50,7 @@ Hello，这里*李明*，也可以叫我 :spoiler[**diudiu**] ，一位愚蠢的
 - [vercel](https://limingblog.vercel.app/)
 - [cloudflare](hthttps://limingblog.pages.dev/)
 
-
+[![Twikoo状态](https://api.netlify.com/api/v1/badges/b11c86fd-c977-4f69-a87f-708b5f0c47de/deploy-status)](https://app.netlify.com/projects/blogdiudiudeviltwikoo/deploys)
 
 *感谢你的来访！希望在这里能找到对你有用的内容！*
 
