@@ -1,0 +1,155 @@
+<div className="glass-card-container" style={{ 
+  maxWidth: '600px', 
+  margin: '0 auto',
+  padding: '20px',
+  background: 'transparent'
+}}>
+  <h2 style={{ 
+    textAlign: 'center', 
+    marginBottom: '30px',
+    color: '#4f46e5', 
+    fontWeight: '600'
+  }}>📅 博客日志</h2>
+
+  {(() => {
+    const timelineData = [
+      {
+        date: '⏰ 2026年03月15日',
+        title: '更换了域名',
+        description: '已重新注册域名 diudiudevil.cn'
+      },
+      {
+        date: '⏰ 2026年02月20日',
+        title: '开始使用免费二级域名',
+        description: '临时使用 diudiu.cc.cd 进行过渡，等到博客内容充实一些后再考虑正式的域名'
+      }
+    ];
+
+    const isDarkMode = typeof document !== 'undefined' && document.documentElement.classList.contains('dark');
+    
+    // --- 玻璃质感核心配色方案 ---
+    // 背景透明度极高，模糊值加大
+    const cardBackgroundColor = isDarkMode 
+      ? 'rgba(255, 255, 255, 0.03)' // 极低透明度白色
+      : 'rgba(255, 255, 255, 0.8)'; // 亮色模式稍微不透明一点以保证对比度
+    
+    const cardBorderColor = isDarkMode 
+      ? 'rgba(255, 255, 255, 0.1)'   // 边框也使用半透明
+      : 'rgba(255, 255, 255, 0.4)';
+    
+    const textColor = isDarkMode ? '#ffffff' : '#1e293b'; // 暗黑模式使用纯白，更清晰
+    const subTextColor = isDarkMode ? '#e2e8f0' : '#475569'; // 日期和描述使用柔和的浅色
+    const nodeColor = '#4f46e5'; // 保持紫色节点，很搭玻璃风
+
+    return (
+      <div style={{ position: 'relative', padding: '15px 0' }}>
+        {/* 左侧主轴线条 - 也改为半透明风格 */}
+        <div style={{
+          position: 'absolute',
+          left: '30px',
+          top: 0,
+          bottom: 0,
+          width: '2px',
+          background: 'rgba(255, 255, 255, 0.2)',
+          backdropFilter: 'blur(2px)'
+        }}></div>
+
+        {timelineData.map((item, index) => (
+          <div key={index} style={{ 
+            display: 'flex', 
+            marginBottom: '30px',
+            transition: 'all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)'
+          }}>
+            {/* 时间节点 */}
+            <div style={{ 
+              flex: '0 0 60px', 
+              padding: '8px', 
+              textAlign: 'center', 
+              zIndex: 1 
+            }}>
+              {/* 节点圆点 - 增加光晕效果 */}
+              <div style={{
+                width: '20px',
+                height: '20px',
+                background: nodeColor,
+                border: `4px solid ${isDarkMode ? '#1e293b' : '#f8fafc'}`,
+                borderRadius: '50%',
+                margin: '12px auto',
+                boxShadow: `0 0 0 4px rgba(79, 70, 229, 0.3)`
+              }}></div>
+            </div>
+            
+            {/* 内容卡片 - 玻璃质感核心样式 */}
+            <div style={{
+              flex: 1,
+              padding: '24px',
+              // 1. 背景：极高的透明度
+              background: cardBackgroundColor,
+              // 2. 毛玻璃：模糊值加大到 16px 或更高
+              backdropFilter: 'blur(16px)',
+              // 3. 边框：半透明细边框
+              border: `1px solid ${cardBorderColor}`,
+              // 4. 圆角：稍微大一点更柔和
+              borderRadius: '16px',
+              // 5. 阴影：透亮的发光感
+              boxShadow: isDarkMode
+                ? '0 8px 32px rgba(0, 0, 0, 0.2), 0 0 10px rgba(79, 70, 229, 0.1)'
+                : '0 8px 32px rgba(0, 0, 0, 0.1), 0 0 10px rgba(79, 70, 229, 0.05)',
+              // 6. 悬停动感
+              transform: 'translateY(0)',
+              cursor: 'pointer',
+              // --- 悬停效果 ---
+              transition: 'all 0.3s ease'
+            }}
+            onMouseEnter={(e) => {
+              e.target.style.transform = 'translateY(-4px)';
+              e.target.style.boxShadow = isDarkMode
+                ? '0 12px 40px rgba(0, 0, 0, 0.3), 0 0 20px rgba(79, 70, 229, 0.2)'
+                : '0 12px 40px rgba(0, 0, 0, 0.15), 0 0 20px rgba(79, 70, 229, 0.1)';
+            }}
+            onMouseLeave={(e) => {
+              e.target.style.transform = 'translateY(0)';
+              e.target.style.boxShadow = isDarkMode
+                ? '0 8px 32px rgba(0, 0, 0, 0.2), 0 0 10px rgba(79, 70, 229, 0.1)'
+                : '0 8px 32px rgba(0, 0, 0, 0.1), 0 0 10px rgba(79, 70, 229, 0.05)';
+            }}
+            >
+              {/* 日期标签 - 玻璃质感风格 */}
+              <div style={{
+                display: 'inline-flex',
+                padding: '6px 12px',
+                // 背景也做成半透明玻璃感
+                background: isDarkMode ? 'rgba(255, 255, 255, 0.05)' : 'rgba(255, 255, 255, 0.2)',
+                backdropFilter: 'blur(4px)',
+                borderRadius: '8px',
+                fontSize: '0.8em',
+                color: subTextColor,
+                fontWeight: '600',
+                marginBottom: '16px',
+                border: `1px solid ${cardBorderColor}`
+              }}>
+                {item.date}
+              </div>
+              <div style={{ 
+                color: textColor,
+                fontWeight: '600',
+                fontSize: '1.1em',
+                lineHeight: '1.4',
+                marginBottom: '8px'
+              }}>
+                {item.title}
+              </div>
+              <div style={{
+                fontSize: '0.9em',
+                color: subTextColor,
+                lineHeight: '1.5'
+              }}>
+                {item.description}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    );
+  })()}
+</div>

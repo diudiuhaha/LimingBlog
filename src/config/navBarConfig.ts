@@ -42,18 +42,33 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	links.push(LinkPreset.Guestbook),
 	links.push(LinkPreset.Friends,),
 
-	links.push(LinkPreset.About);
-
-	// // 关于及其子菜单
 	// links.push({
-	// 	name: "其他",
-	// 	url: "/content/",
-	// 	icon: "material-symbols:info",
-	// 	children: [
-	// 		LinkPreset.Guestbook,
-	// 		LinkPreset.Friends,
-	// 	],
-	// });
+	// 	name: "我的",
+	// 	url: "/test/",
+	// 	icon: "material-symbols:person",
+	// })
+
+
+	// 关于及其子菜单
+	links.push({
+		name: "关于",
+		url: "/about-blog/",
+		icon: "fa7-brands:fort-awesome",
+		children: [
+						{
+				name: "关于我",
+				url: "/about/",
+				external: false,
+				icon: "fa7-brands:gratipay",
+			},
+			{
+				name: "关于本站",
+				url: "/logs/",
+				external: false,
+				icon: "fa7-brands:space-awesome",
+			},
+	],
+	});
 
 	// 自定义导航栏链接,并且支持多级菜单
 	// links.push({
